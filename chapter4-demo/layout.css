@@ -1,0 +1,30 @@
+body{
+    font-family: "微软雅黑";
+    color: #333333;
+    background: #cccccc;
+    margin: 1em 10%;
+}
+h1{
+    color: #333333;
+    background: transparent;
+}
+a{
+    width: 100px;
+    height: 50px;
+    color: #cc6600;
+    background: yellowgreen;
+    font-weight: bold;
+    text-decoration: none;
+}
+ul{
+    padding: 0;
+}
+li{
+    float: left;
+    padding: 1em;
+    list-style: none;
+}
+img{
+    display: block;
+    clear: both;
+}
