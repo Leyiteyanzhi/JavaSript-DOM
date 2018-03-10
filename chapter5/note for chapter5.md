@@ -15,7 +15,7 @@
    不同的游览器对 JavaScript 的支持程度也不一样。但比较古老的游览器却可能无法理解DOM提供的方法和属性。
 
 #### 对象检测
-        - 例如：<code>if(!document.getElementById || !document.getElementByTagName) return false;</code>
+  - 例如：<code>if(!document.getElementById || !document.getElementByTagName) return false;</code>
 
 ### 性能考虑
 
