@@ -12,13 +12,13 @@
 
   nodeType 属性可以告诉我们正在与哪一种节点进行操作。用下面的语法获取节点的 nodeType 属性：
   <code>node.nodeType</code>
-  - 但 nodeType 的值不是英文，而是一个数字，共有12种可取值，其中仅有3种具有使用价值：
+  - 但 nodeType 的值不是英文，而是一个数字，共有12种可取值，其中仅有3种具有使用价值。
+
+  1.  元素节点的 nodeType 的属性值是1
   
-  1. 元素节点的 nodeType 的属性值是1
+  2.  属性节点的 nodeType 的属性值是2
   
-  2. 属性节点的 nodeType 的属性值是2
-  
-  3. 文本节点的 nodeType 的属性值是3
+  3.  文本节点的 nodeType 的属性值是3
 
 ### nodeValue
 
