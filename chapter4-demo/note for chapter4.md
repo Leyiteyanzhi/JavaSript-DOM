@@ -28,13 +28,10 @@
 ### firstChild
 
   firstChild 为数组元素childNodes[0]更直观易读的同义词
-  <code>node.firstChild</code>写法完全等价于<code>node.childNodes[0]</code>。
-  - 不仅更加简短，还更加具有可读性
+  - <code>node.firstChild</code>写法完全等价于<code>node.childNodes[0]</code>。不仅更加简短，还更加具有可读性。
 
 ### lastChild
 
-元素节点的 nodeType 的属性值是1
-
-属性节点的 nodeType 的属性值是2
-
-文本节点的 nodeType 的属性值是3
+  DOM还提供了一个与之对应的 lastChild 属性：<code>node.lastChild</code> 这代表着 childNodes 数组的最后一个元素。
+  - 等价于<code>node.childNodes[node.childNodes.length-1]</code>
+  
