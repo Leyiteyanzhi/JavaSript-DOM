@@ -22,7 +22,15 @@
 
 ### nodeValue
 
+   nodeValue 属性用来得到（和设置）一个节点的值：
+   <code>node.nodeValue</code>
+
 ### firstChild
+
+  firstChild 为数组元素childNodes[0]更直观易读的同义词
+  <code>node.firstChild</code>写法完全等价于<code>node.childNodes[0]</code>。
+  
+  - 不仅更加简短，还更加具有可读性
 
 ### lastChild
 
