@@ -5,7 +5,7 @@
 ### childNodes
 
 - 在一棵节点树上，childNodes属性可以用来获取任何一个元素的所有子元素，他是一个包含这个元素全部子元素的数组：
-  element.childNodes
+  <code>element.childNodes</code>
 
 ### nodeType
 
