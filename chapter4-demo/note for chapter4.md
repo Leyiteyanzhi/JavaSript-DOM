@@ -33,5 +33,5 @@
 ### lastChild
 
   DOM还提供了一个与之对应的 lastChild 属性：<code>node.lastChild</code> 这代表着 childNodes 数组的最后一个元素。
-  - 等价于<code>node.childNodes[node.childNodes.length-1]</code>
+  - 等价于<code>node.childNodes[node.childNodes.length-1]</code>
   
