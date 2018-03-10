@@ -14,15 +14,14 @@
 
    不同的游览器对 JavaScript 的支持程度也不一样。但比较古老的游览器却可能无法理解DOM提供的方法和属性。
 
-#### 对象检测
-        - 例如：<code>if(!document.getElementById || !document.getElementByTagName) return false;</code>
+    - 对象检测
+        例如：<code>if(!document.getElementById || !document.getElementByTagName) return false;</code>
+
+    - 游览器嗅探技术
+
 
 ### 性能考虑
 
-  firstChild 为数组元素childNodes[0]更直观易读的同义词
-  - <code>node.firstChild</code>写法完全等价于<code>node.childNodes[0]</code>。不仅更加简短，还更加具有可读性。
-
-### lastChild
-
-  DOM还提供了一个与之对应的 lastChild 属性：<code>node.lastChild</code> 这代表着 childNodes 数组的最后一个元素。
-  - 等价于<code>node.childNodes[node.childNodes.length-1]</code>
+    - 尽量少访问 DOM 和尽量减少标记
+    - 合并和放置脚本
+    - 压缩脚本
