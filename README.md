@@ -9,4 +9,4 @@
 ## chapter 7
 - [第七章笔记](https://github.com/Leyiteyanzhi/JavaSript-DOM/blob/master/chapter7/note%20for%20chapter7.md)
 ## chapter 8
-- [第七章笔记](https://github.com/Leyiteyanzhi/JavaSript-DOM/blob/master/chapter8/note%20for%20chapter8.md)
+- [第八章笔记](https://github.com/Leyiteyanzhi/JavaSript-DOM/blob/master/chapter8/note%20for%20chapter8.md)
