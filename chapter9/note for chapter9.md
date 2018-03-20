@@ -9,6 +9,5 @@
     - 根据元素在节点树里的位置设置它们的样式（ styleHeaderSiblings 函数）。
     - 遍历一个节点集合设置有关元素的样式（ stripeTables 函数）。
     - 在事件发生时设置有关元素的样式（ highlightRows 函数）。
-    - ？？？
 
 
